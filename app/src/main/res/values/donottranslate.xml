@@ -72,6 +72,9 @@
     <string name="unit_mass_short_ton_symbol">sh tn</string>
     <string name="unit_mass_carat_symbol">kt</string>
     <string name="unit_mass_carat_metric_symbol">ct</string>
+    <string name="unit_mass_jin_symbol">斤</string>
+    <string name="unit_mass_jin_hk_symbol">港斤</string>
+    <string name="unit_mass_jin_prc_symbol">市斤</string>
 
     <string name="unit_temperature_celsius_symbol">°C</string>
     <string name="unit_temperature_fahrenheit_symbol">°F</string>

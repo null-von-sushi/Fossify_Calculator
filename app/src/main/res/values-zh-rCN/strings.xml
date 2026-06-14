@@ -70,6 +70,9 @@
     <string name="unit_mass_short_ton">短吨</string>
     <string name="unit_mass_carat">克拉</string>
     <string name="unit_mass_carat_metric">克拉（公制）</string>
+    <string name="unit_mass_jin">斤（台湾）</string>
+    <string name="unit_mass_jin_hk">斤（香港）</string>
+    <string name="unit_mass_jin_prc">斤（中国市斤）</string>
     <string name="unit_temperature">温度</string>
     <string name="unit_temperature_celsius">摄氏度</string>
     <string name="unit_temperature_fahrenheit">华氏度</string>

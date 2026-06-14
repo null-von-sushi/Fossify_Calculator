@@ -107,6 +107,27 @@ object MassConverter : Converter {
             factor = BigDecimal("0.0002"),
             key = "CaratMetric"
         )
+
+        data object Jin : Unit(
+            nameResId = R.string.unit_mass_jin,
+            symbolResId = R.string.unit_mass_jin_symbol,
+            factor = BigDecimal("0.6"),
+            key = "Jin"
+        )
+
+        data object JinHK : Unit(
+            nameResId = R.string.unit_mass_jin_hk,
+            symbolResId = R.string.unit_mass_jin_hk_symbol,
+            factor = BigDecimal("0.60478982"),
+            key = "JinHK"
+        )
+
+        data object JinPRC : Unit(
+            nameResId = R.string.unit_mass_jin_prc,
+            symbolResId = R.string.unit_mass_jin_prc_symbol,
+            factor = BigDecimal("0.5"),
+            key = "JinPRC"
+        )
     }
 
     override val units: List<Unit> = listOf(
@@ -124,6 +145,9 @@ object MassConverter : Converter {
         Unit.ShortTon,
         Unit.Carat,
         Unit.CaratMetric,
+        Unit.Jin,
+        Unit.JinHK,
+        Unit.JinPRC,
     )
 
     override val defaultTopUnit: Unit = Unit.Pound

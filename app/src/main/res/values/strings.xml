@@ -90,6 +90,9 @@
     <string name="unit_mass_short_ton">Short Ton</string>
     <string name="unit_mass_carat">Carat</string>
     <string name="unit_mass_carat_metric">Carat (Metric)</string>
+    <string name="unit_mass_jin">Catty</string>
+    <string name="unit_mass_jin_hk">Catty (HK)</string>
+    <string name="unit_mass_jin_prc">Catty (PRC)</string>
 
     <string name="unit_temperature">Temperature</string>
     <string name="unit_temperature_celsius">Celsius</string>
